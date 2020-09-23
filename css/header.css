@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #edeef0;
+  overflow-y: scroll; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif; }
+
+.container {
+  margin-left: 300px;
+  margin-right: 300px; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #4a76a8; }
+  .menu .logo {
+    display: flex;
+    align-items: center; }
+    .menu .logo img {
+      width: 200px;
+      height: 70px;
+      margin-right: 10px; }
+  .menu .list ul {
+    display: flex;
+    align-items: center; }
+    .menu .list ul li {
+      list-style-type: none;
+      margin-right: 20px;
+      font-size: 26px; }
+      .menu .list ul li:last-of-type {
+        margin-right: 0; }
+      .menu .list ul li a {
+        text-decoration: none;
+        color: black; }
+      .menu .list ul li button[name="exit"] {
+        cursor: pointer;
+        border: none;
+        background-color: #4a76a8; }
+
+/*# sourceMappingURL=header.css.map */

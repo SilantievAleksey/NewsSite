@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #edeef0;
+  overflow-y: scroll; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans JP', sans-serif; }
+
+.container {
+  margin-left: 300px;
+  margin-right: 300px; }
+
+.main h1 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+.main .register {
+  border: 1px solid #c4c4c4;
+  padding: 20px;
+  border-radius: 5px; }
+  .main .register form i {
+    color: #ff6a59; }
+  .main .register form input {
+    border: 1px solid #c4c4c4;
+    height: 30px;
+    margin: 5px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px; }
+  .main .register form button {
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: #4a76a8;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 20px; }
+    .main .register form button:hover {
+      opacity: 0.75;
+      transition: 0.3s ease; }
+  .main .register form a {
+    color: #4a76a8; }
+    .main .register form a:first-of-type {
+      margin-right: 20px; }
+  .main .register form small {
+    font-size: 10px; }
+  .main .register form span {
+    color: #ff6a59; }
+  .main .register form .backlight_input {
+    border: 2px solid #ff6a59; }
+
+/*# sourceMappingURL=register.css.map */

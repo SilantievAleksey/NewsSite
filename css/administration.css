@@ -1,0 +1,167 @@
+body {
+  overflow-y: scroll; }
+
+* {
+  font-family: 'Noto Sans JP', sans-serif; }
+
+.tiding_control {
+  display: flex; }
+  .tiding_control img {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    margin-right: 10px; }
+    .tiding_control img:last-of-type {
+      margin-right: 0; }
+  .tiding_control span {
+    cursor: pointer; }
+
+.element_tiding_hide {
+  display: none; }
+
+.tiding-control-hide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; }
+
+.create_tiding {
+  margin-top: 10px; }
+  .create_tiding i {
+    color: #ff6a59; }
+  .create_tiding input[type="text"] {
+    border: 1px solid #f2f2f2;
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px; }
+  .create_tiding input[type="file"] {
+    margin-left: 10px; }
+  .create_tiding textarea {
+    border: 1px solid #f2f2f2;
+    height: 100px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-height: 50px; }
+  .create_tiding button[name="look_create_tiding"] {
+    width: 300px;
+    font-size: 16px; }
+  .create_tiding button {
+    height: 30px;
+    width: 170px;
+    border: none;
+    background-color: #4a76a8;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px; }
+    .create_tiding button:hover {
+      opacity: 0.75;
+      transition: 0.3s ease; }
+  .create_tiding .tiding_part {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 5px; }
+    .create_tiding .tiding_part p {
+      width: 650px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 10px; }
+    .create_tiding .tiding_part span {
+      width: 300px;
+      margin: 5px;
+      color: #ff6a59; }
+    .create_tiding .tiding_part:last-of-type p {
+      width: 650px;
+      display: block; }
+      .create_tiding .tiding_part:last-of-type p label {
+        margin-top: 5px;
+        margin-right: 10px; }
+    .create_tiding .tiding_part:first-of-type p {
+      margin-top: 10px; }
+  .create_tiding .backlight_input {
+    border: 2px solid #ff6a59; }
+  .create_tiding .form_create_tiding {
+    display: none; }
+
+.edit_tiding {
+  margin-top: 10px; }
+  .edit_tiding i {
+    color: #ff6a59; }
+  .edit_tiding input[type="text"] {
+    border: 1px solid #f2f2f2;
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px; }
+  .edit_tiding input[type="file"] {
+    margin-left: 10px; }
+  .edit_tiding textarea {
+    border: 1px solid #f2f2f2;
+    height: 100px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-height: 50px; }
+  .edit_tiding button {
+    height: 30px;
+    width: 170px;
+    border: none;
+    background-color: #4a76a8;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px; }
+    .edit_tiding button:hover {
+      opacity: 0.75;
+      transition: 0.3s ease; }
+  .edit_tiding .tiding_part {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 5px; }
+    .edit_tiding .tiding_part p {
+      width: 650px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 10px; }
+    .edit_tiding .tiding_part span {
+      width: 300px;
+      margin: 5px;
+      color: #ff6a59; }
+    .edit_tiding .tiding_part:last-of-type p {
+      width: 650px;
+      display: block; }
+      .edit_tiding .tiding_part:last-of-type p label {
+        margin-top: 5px;
+        margin-right: 10px; }
+  .edit_tiding .old-img {
+    display: flex;
+    align-items: center; }
+    .edit_tiding .old-img label {
+      margin-right: 20px; }
+    .edit_tiding .old-img img {
+      height: 32px;
+      width: 32px; }
+    .edit_tiding .old-img span {
+      color: black; }
+  .edit_tiding .backlight_input {
+    border: 2px solid #ff6a59; }
+  .edit_tiding .form_edit_tiding {
+    display: none; }
+
+/*# sourceMappingURL=administration.css.map */

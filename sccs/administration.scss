@@ -1,0 +1,223 @@
+body{
+  overflow-y: scroll;
+}
+
+*{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tiding_control{
+  display: flex;
+  img{
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+    &:last-of-type{
+      margin-right: 0;
+    }
+  }
+  span{
+    cursor: pointer;
+  };
+}
+
+.element_tiding_hide{
+  display: none;
+}
+
+.tiding-control-hide{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.create_tiding{
+  margin-top: 10px;
+  i{
+    color: #ff6a59;
+  }
+  input[type="text"]{
+    border: 1px solid #f2f2f2;
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  input[type="file"]{
+    margin-left: 10px;
+  }
+  textarea{
+    border: 1px solid #f2f2f2;
+    height: 100px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-height: 50px;
+  }
+  button[name="look_create_tiding"]{
+    width: 300px;
+    font-size: 16px;
+  }
+  button{
+    height: 30px;
+    width: 170px;
+    border: none;
+    background-color: #4a76a8;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    &:hover{
+      opacity: 0.75;
+      transition: 0.3s ease;
+    }
+  }
+
+  .tiding_part{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 5px;
+    p{
+      width: 650px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    span{
+      width: 300px;
+      margin: 5px;
+      color: #ff6a59;
+    }
+    &:last-of-type{
+      p{
+        width: 650px;
+        display: block;
+        label{
+          margin-top: 5px;
+          margin-right: 10px;
+        }
+      }
+    }
+    &:first-of-type{
+      p{
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .backlight_input{
+    border: 2px solid #ff6a59;
+  }
+
+  .form_create_tiding{
+    display: none;
+  }
+
+}
+
+.edit_tiding{
+  margin-top: 10px;
+  i{
+    color: #ff6a59;
+  }
+  input[type="text"]{
+    border: 1px solid #f2f2f2;
+    height: 30px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  input[type="file"]{
+    margin-left: 10px;
+  }
+  textarea{
+    border: 1px solid #f2f2f2;
+    height: 100px;
+    max-width: 500px;
+    min-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    min-height: 50px;
+  }
+  button{
+    height: 30px;
+    width: 170px;
+    border: none;
+    background-color: #4a76a8;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 16px;
+    &:hover{
+      opacity: 0.75;
+      transition: 0.3s ease;
+    }
+  }
+
+  .tiding_part{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin: 5px;
+    p{
+      width: 650px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    span{
+      width: 300px;
+      margin: 5px;
+      color: #ff6a59;
+    }
+    &:last-of-type{
+      p{
+        width: 650px;
+        display: block;
+        label{
+          margin-top: 5px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .old-img{
+    display: flex;
+    align-items: center;
+    label{
+      margin-right: 20px;
+    }
+    img{
+      height: 32px;
+      width: 32px;
+    }
+    span{
+      color: black;
+    }
+  }
+
+  .backlight_input{
+    border: 2px solid #ff6a59;
+  }
+
+  .form_edit_tiding{
+    display: none;
+  }
+
+}
+
